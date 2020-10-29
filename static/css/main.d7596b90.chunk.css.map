@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,EACI,QAAS,CACT,SACJ,CACA,KACI,WAAY,CACZ,wBACJ","file":"main.d7596b90.chunk.css","sourcesContent":["*{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\nbody{\r\n    color: brown;\r\n    background-color: cornflowerblue;\r\n}"]}
