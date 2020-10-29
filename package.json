@@ -2,6 +2,7 @@
   "name": "first-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Olukeye.github.io/Contact-Manager-With_React",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -9,6 +10,7 @@
     "axios": "^0.21.0",
     "bootstrap": "^4.5.3",
     "classnames": "^2.2.6",
+    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-fontawesome": "^1.7.1",
@@ -17,6 +19,7 @@
     "uuid": "^8.3.1"
   },
   "scripts": {
+    "deploy":"npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
